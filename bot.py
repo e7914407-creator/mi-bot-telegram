@@ -275,3 +275,4 @@ if __name__ == '__main__':
         app_bot.add_handler(MessageHandler(filters.ALL & (~filters.COMMAND) & (~filters.StatusUpdate.ALL), procesar_todo))
         
         app_bot.run_polling()
+
